@@ -1,0 +1,324 @@
+body{
+    background-color:white;
+   
+}
+.title{
+    height: 1px;
+    width: 1px;
+    z-index: -1;
+    position: absolute;
+}
+
+/*header*/
+
+.header{margin: auto;
+    background: #F58021;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    width: 1920px;
+    align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+    margin-bottom: 129px;
+}
+
+.header__logo{
+    margin-left:260px ;
+    width: 96px;
+    height:50px;
+}
+
+.header__nav{
+    display: flex;
+    list-style-type: none;
+}
+.header__nav__link{
+    text-decoration: none;
+}
+
+
+.header__nav__link:hover,
+.header__nav__link:focus,
+.header__nav__link:active{
+    opacity: 0.75;
+}
+
+
+.header__nav__point{
+    margin-right: 48.25px;
+    color: #000000;
+}
+
+.header__nav__point__active{
+    margin-right: 48.25px;
+    color:#00A092;
+}
+
+
+.header__contacts{
+    display: flex;
+    list-style-type: none;
+}
+
+.header__contacts__link{
+    text-decoration: none;
+}
+
+
+.header__contacts__point{
+    margin-right: 30px;
+}
+.header__contacts__point__img{
+    width: 40px;
+    height: 40px;
+    
+}
+
+/*main*/
+
+.main__img1{
+
+    width: 1400px;
+    height: 815px;
+    top: 0;  
+    margin-left: 260px;
+    margin-bottom: 150px;
+}
+.main__form{
+    display: flex;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+}
+.main__form{
+    margin-left: 260px;
+}
+.main__form__text{
+    margin-right: 170px;
+}
+.main__form__text__main__1{
+    font-weight: 600;
+font-size: 54px;
+line-height: 66px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #00A092;
+margin-bottom: 50px;
+}
+.main__form__text__aside__1{
+    font-size: 18px;
+line-height: 150%;
+/* or 27px */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+width: 515px;
+}
+.main_form__right__block__text{
+    font-size: 18px;
+    line-height: 150%;
+    color: #00A092;
+    margin-bottom: 10px;
+}
+input[type="text"],
+ input[type="email"],
+ input[type="subgect"]
+ {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 680px;
+    height: 60px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    line-height: 150%;
+    color:black;
+  }
+
+  input[type="textarea"]{
+    width: 680px;
+    height: 200px; 
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px; 
+    margin-bottom:60px ;
+    font-size: 22px;
+    line-height: 150%;
+    color:black;  
+  }
+.form__button{
+    width: 359px;
+    height: 74px;
+    margin-bottom: 150px;
+    
+    background: #00A092;
+    border-radius: 5px;
+}
+
+.button__form__text{
+    font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+.footer{margin: auto;
+    width: 1920px;
+    height: 329px;
+    background: #20113D;
+
+}
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+    height: 214px;
+    align-items: center;
+}
+.footer__nav__list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.footer__nav__list__point:first-child{
+    margin-left: 200px;
+}
+
+.footer__nav__list__point{
+
+    margin-right: 65px;    
+}
+.footer__nav_list__point__img1{
+    width: 79.66px;
+    height: 31.65px;
+
+}
+.footer__nav_list__point__img2{
+    width: 50px;
+    height: 50px;
+
+}
+.footer__nav_list__point__img3{
+    width: 138px;
+    height: 51.11px;
+
+}
+
+.footer__nav__list__links__point{
+
+    margin-right: 65px;   
+}
+
+.footer__nav__list__links__point__text{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer__nav__list__links__point__text__active
+{    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color:#00A092;
+}
+.footer__nav__list__links{
+    display: flex;
+    justify-content: space-between; 
+    list-style-type: none;
+}
+
+.footer__nav__button{
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: Transparent;
+    width: 359px;
+    height: 74px;
+    margin-right: 200px;
+}
+.footer__nav__button__text{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer__nav__button:hover{
+    opacity: 0.6;
+}
+.footer__line{
+    width: 1400px;
+}
+
+
+
+.footer__bottom{
+    display: flex;
+    height: 150px;
+    background-color: #20113D;
+  }
+  .footer__bottom__list{
+    display: flex;
+    align-items: center;
+  }
+  .footer__icons__list{
+    display: flex;
+    align-items: center;
+  }
+
+
+
+.footer__bottom__list__point{
+    margin-right: 50px;
+}
+.footer__bottom__list__point:first-child{
+    margin-left: 260px;
+}
+.footer__bottom__list{
+        list-style-type: none;
+    }
+.footer__bottom__list__point__text{
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.footer__icons__list__point{
+    list-style-type: none;
+}
+.footer__icons__list__point__img{
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+.footer__bottom__list__point:last-child{
+    margin-right: 750px;
+}
+.footer__icons__list__point__link{
+    text-decoration: none;
+}

@@ -4,9 +4,913 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style1.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <p>hello</p>
+  <script src='script/index.js'></script>
+
+  <header class="header">
+    <h1 class="title">Online Zoo</h1>
+    <a href="./index.html" class="header__logo__link">
+      <img src="./img/Logo.png" alt="logo" class="header__logo">
+    </a>
+
+    <nav>
+      <ul class="header__nav">
+        <a href="./index.html" class="header__nav__link">
+          <li class="header__nav__point__active">About</li>
+        </a>
+        <a href="./map.html" class="header__nav__link">
+          <li class="header__nav__point">map</li>
+        </a>
+        <a href="./zoos.html" class="header__nav__link">
+          <li class="header__nav__point">Zoos</li>
+        </a>
+        <a href="./contact_us.html" class="header__nav__link">
+          <li class="header__nav__point">Contact us</li>
+        </a>
+        <a href="https://www.figma.com/file/fY2tpWqJO7XhX3u6eG7NnS/Online-ZOO-Project-(Copy)?node-id=0%3A1" class="header__nav__link">
+          <li class="header__nav__point">Design</li>
+        </a>
+      </ul>
+    </nav>
+      <ul class="header__contacts">
+        <a href="https://m.youtube.com/?app=m&gl=RU&hl=ru&persist_app=1" class="header__contatct__link">
+          <li class="header__contacts__point">
+            <img src="./img/YouTube.png" alt="contact1" class="header__contacts__point__img">
+          </li> 
+        </a>
+        <a href="https://www.instagram.com/?hl=ru" class="header__contatct__link">
+          <li class="header__contacts__point">
+            <img src="./img/Instagram.png" alt="contact2" class="header__contacts__point__img">
+          </li> 
+        </a>
+        <a href="https://ru-ru.facebook.com/" class="header__contatct__link">
+         <li class="header__contacts__point">
+           <img src="./img/Facebook.png" alt="contact3" class="header__contacts__point__img">
+          </li>
+        </a>
+      </ul>
+      <div class="header__min-width">
+<a href="./" class="header__min-width__link">
+<img src="./img/header__min.png" alt="side-nav" class="header__min-width__img">
+</a>
+
+      </div>
+  </header>
+
+  <section class="main__section">
+    <article class="main__section__main">
+      <p class="main__section__main__text">
+        Watch your favorite animal online
+      </p>
+    </article>
+  <aside class="main__section__aside">
+    <p class="main__section__aside__text">
+      Explore the exciting and mysterious world of wild animals in a natural setting without leaving your home.
+    </p>
+  </aside>
+  <aside class="main__section__aside2">
+    <button class="main__section__aside2__button" >
+      <a href="./zoos.html" class="main__section__aside2__button__link">
+        <p class="main__section__aside2__button__text" >view live cam</p>
+      </a>
+      <img src="./img/Union (1).png" alt="arrow" class="main__section__aside2__button__str">
+    </button> 
+  </aside>
+  </section>
+
+  <section class="welcome">
+    <article class="welcome__first">
+      <div class="welcome__first__block__text">
+        <p class="welcome__first__text1">
+          Welcome to the Online Zoo! 
+        </p>
+        <p class="welcome__first__text2">
+           On our website, using live webcams, fans of all ages can observe various animals. Among them, are Giant pandas, eagles, alligators, forest gorillas, African lions, and others. It is the whole natural world in real-time in front of our cameras. We hope you will enjoy watching closely and explore animals’ behavior and habitats! Note: animals are not always on view on cameras, so please check back if you don't see anything.
+        </p>
+      </div>
+      <img src="./img/welcome.png" alt="welcome" class="welcome__first__img">
+    
+    </article>
+
+    <article class="welcome__second">
+      <img src="./img/eagle.png" alt="eagle" class="welcome__second__img">
+      <div class="welcome__second__block__text">
+      <p class="welcome__second__text1">
+        How we work
+      </p>
+      <p class="welcome__second__text2">
+        Online Zoo is a nonprofit committed to inspiring awareness and preservation of nature and wild animals in our zoo and worldwide. Every day, our experts work to safeguard the health and wellness of the animals. To continue these efforts, we need your help. We're so grateful to our numerous supporters. All donations, large and small, go a long way to the conservation efforts of our pets.
+      </p>
+    </div>
+    </article>
+
+    <article class="welcome__donate">
+      <aside class="welcome_donate__left">
+        <p class="welcome__donate__left__text1">
+           Your donation makes a difference! 
+        </p>
+        <p class="welcome__donate__left__text2">
+          The Online Zoo's animal webcams are some of the most famous on the internet. Tune in to watch your favourite animals — live, 24/7!
+        </p>
+      </aside>
+      
+      <aside class="welcome__donate__right">
+        <p class="welcome__donate__right__text">
+          Quick Donate
+        </p>
+     
+     <div class="welcome__donate__right__buttons">    
+       <input type="number" class="colortext" maxlength="4" placeholder="$ Donation Amount">        
+         <button id="show"  class="welcome__donate__right__button__arrow" >
+           <img src="./img/Union (1).png" alt="">
+         </button>
+    <!--popup start-->
+
+        <dialog>
+          <div class="popup_header">
+            <p class="popup_header_text">
+              make your donation
+            </p>
+          </div>
+        <div class="popup_main">
+          <p class="popup_main_text_1">Donation information</p>
+          <hr>
+          <p class="popup_main_text_2">* Choose your donation amount</p>
+          <div class="popup_main_pay">
+            <div class="popup_main_fraim">
+              <p class="popup_main_fraim_number">
+                $10
+              </p>
+            </div>
+            <div class="popup_main_fraim">
+              <p class="popup_main_fraim_number">
+                $10
+              </p>
+            </div>
+            <div class="popup_main_fraim">
+              <p class="popup_main_fraim_number">
+                $20
+              </p>
+            </div>
+            <div class="popup_main_fraim">
+              <p class="popup_main_fraim_number">
+                $30
+              </p>
+            </div>
+            <div class="popup_main_fraim">
+              <p class="popup_main_fraim_number">
+                $50
+              </p>
+            </div>
+            <div class="popup_main_fraim">
+              <p class="popup_main_fraim_number">
+                $80
+              </p>
+            </div>
+            <div class="popup_main_fraim">
+              <p class="popup_main_fraim_number">
+                $100
+              </p>
+            </div>
+
+          </div>
+          <div class="popup_main_other">
+            <div class="popup_main_other_text">
+              <p class="popup_main_other_text_words">other amount</p>
+            </div>
+            <input type="text" value="" class="popup_main_text">
+          </div>
+          <div class="popup_main_pet">
+           <div class="popup_main_box_text">
+             <p class="popup_main_box_text_text">for special pet</p>
+           </div>
+           <input type="text" value="choose your favourite" class="popup_main_list">
+          </div>
+          <div class="popup_checkbox">
+            <input type="checkbox" name="" id="">
+            <p class="checkbox_text">
+              make this a monthly recurring gift
+            </p>
+          </div>
+
+        </div>
+<div class="popup_footer">
+  <img src="./img2/steps.png" alt="" class="popup_proces">
+  <a href="./" class="popup_footer_next">
+    <p class="popup_footer_next_text">
+      Next
+    </p>
+  </a>
+</div>
+
+
+          <button id="close">Закрыть</button>
+        </dialog>
+
+
+        <script>
+          let dialog = document.querySelector('dialog');
+          document.getElementById('show').onclick = function() {
+          
+          dialog.showModal();
+           };
+          document.getElementById('close').onclick = function() {
+           dialog.close();
+           };
+
+        </script>
+<!--popup finish-->
+
+
+      </div>
+        </div>
+      </aside>
+    </article>
+  </section>
+  
+  <section class="meet">
+    <p class="meet__text1">
+      meet some our Pets 
+    </p>
+    <p class="meet__text2">
+      Do you have a special place in your heart for animals? Who are your favorites? Perhaps you'd like to donate to special ones or all our pets? We think it's important for you to choose how your donation is used. 
+   </p>
+
+  <article class="meet__buttons">
+    <div class="meet__arrows__nav">
+
+      <div class="control left">
+      <button class="meet__butons__left">
+        <p class="left"></p>
+      </button>
+    </div>
+
+    <div class="control right">
+      <button class="meet__buttons__right">
+        <p class="right"></p>
+      </button>
+    </div>
+    </div>
+  </article>
+
+
+
+<article class="meet__photo">
+
+    <aside class="meet__photo__animal active">
+      <a href="./zoos.html" class="meet__photo__animal__link">
+      <p class="meet__photo__animal__name">
+        Lucas 
+      </p>
+      <img src="./img/panda.png" alt="panda" class="meet__photo__animal__photo">
+     <div class="meet__photo__animal__info">
+      <p class="meet__photo__animal__text1">
+        Giant Panda
+     </p>
+      <p class="meet__photo__animal__text2">
+        Native to central China, giant pandas have come to symbolize vulnerable species.
+      </p>
+      <button class="meet__photo__animal__button">
+       <p class="meet__photo__animal__button__text">VIEW LIVE CAM</p> 
+
+      </button>
+     </div></a>
+    </aside>
+
+    <aside class="meet__photo__animal active">
+      <a href="./zoos_lemuar.html" class="meet__photo__animal__link">
+      <p class="meet__photo__animal__name">
+        Andy 
+      </p>
+      <img src="./img/lemur.png" alt="panda" class="meet__photo__animal__photo">
+     <div class="meet__photo__animal__info">
+      <p class="meet__photo__animal__text1">
+        Madagascarian Lemur 
+     </p>
+      <p class="meet__photo__animal__text2">
+        Lemurs are considered the world’s most endangered group of mammals. 
+      </p>
+      <button class="meet__photo__animal__button">
+        <p class="meet__photo__animal__button__text">VIEW LIVE CAM</p> 
+      </button>
+     </div>
+      </a>
+    </aside>
+
+    <aside class="meet__photo__animal active">
+      <a href="./zoos_gorila.html" class="meet__photo__animal__link">
+      <p class="meet__photo__animal__name">
+        Lucas 
+      </p>
+      <img src="./img/gorila.png" alt="panda" class="meet__photo__animal__photo">
+     <div class="meet__photo__animal__info">
+      <p class="meet__photo__animal__text1">
+        Gorilla in Congo 
+     </p>
+      <p class="meet__photo__animal__text2">
+        Variety of snacks very important for the healthy life of gorillas and his plenty of babies.  
+      </p>
+      <button class="meet__photo__animal__button">
+        <p class="meet__photo__animal__button__text">VIEW LIVE CAM</p> 
+      </button>
+     </div>
+      </a>
+    </aside>
+   
+  <aside class="meet__photo__animal">
+    <a href="./zoos_eagle.html" class="meet__photo__animal__link">
+    <p class="meet__photo__animal__name">
+      Sam & Lora
+    </p>
+    <img src="./img/bird.png" alt="panda" class="meet__photo__animal__photo">
+   <div class="meet__photo__animal__info">
+    <p class="meet__photo__animal__text1">
+      West End Bald Eagles
+   </p>
+    <p class="meet__photo__animal__text2">
+      Pair of eagle parents lay and protect eggs, feed their chicks and teach them to hunt and fly.
+    </p>
+    <button class="meet__photo__animal__button">
+     <p class="meet__photo__animal__button__text">VIEW LIVE CAM</p> 
+    </button>
+   </div>
+    </a>
+  </aside>
+
+  <aside class="meet__photo__animal">
+    <p class="meet__photo__animal__name">
+      Shake
+    </p>
+    <img src="./img/lien.png" alt="panda" class="meet__photo__animal__photo">
+   <div class="meet__photo__animal__info">
+    <p class="meet__photo__animal__text1">
+      African Lion
+   </p>
+    <p class="meet__photo__animal__text2">
+      Lions roam the savannas and grasslands of Africa, hunting and raising cubs in the pride.
+    </p>
+    <button class="meet__photo__animal__button">
+      <p class="meet__photo__animal__button__text">VIEW LIVE CAM</p> 
+    </button>
+   </div>
+  </aside>
+
+  <aside class="meet__photo__animal">
+    <p class="meet__photo__animal__name">
+      Liz
+    </p>
+    <img src="./img/coala.png" alt="panda" class="meet__photo__animal__photo">
+   <div class="meet__photo__animal__info">
+    <p class="meet__photo__animal__text1">
+      Australian Koala
+   </p>
+    <p class="meet__photo__animal__text2">
+      The elevated walkways bring you to eye level with the koalas as they perch in their forest. 
+   </p>
+    <button class="meet__photo__animal__button">
+      <p class="meet__photo__animal__button__text">VIEW LIVE CAM</p> 
+    </button>
+   </div>
+  </aside>
+
+</article>
+
+<article class="meet__photo">
+  
+  <aside class="meet__photo__animal active">
+    <a href="./zoos_eagle.html" class="meet__photo__animal__link">
+    <p class="meet__photo__animal__name">
+      Sam & Lora
+    </p>
+    <img src="./img/bird.png" alt="panda" class="meet__photo__animal__photo">
+   <div class="meet__photo__animal__info">
+    <p class="meet__photo__animal__text1">
+      West End Bald Eagles
+   </p>
+    <p class="meet__photo__animal__text2">
+      Pair of eagle parents lay and protect eggs, feed their chicks and teach them to hunt and fly.
+    </p>
+    <button class="meet__photo__animal__button">
+     <p class="meet__photo__animal__button__text">VIEW LIVE CAM</p> 
+    </button>
+   </div>
+    </a>
+  </aside>
+
+  <aside class="meet__photo__animal active">
+    <p class="meet__photo__animal__name">
+      Shake
+    </p>
+    <img src="./img/lien.png" alt="panda" class="meet__photo__animal__photo">
+   <div class="meet__photo__animal__info">
+    <p class="meet__photo__animal__text1">
+      African Lion
+   </p>
+    <p class="meet__photo__animal__text2">
+      Lions roam the savannas and grasslands of Africa, hunting and raising cubs in the pride.
+    </p>
+    <button class="meet__photo__animal__button">
+      <p class="meet__photo__animal__button__text">VIEW LIVE CAM</p> 
+    </button>
+   </div>
+  </aside>
+
+  <aside class="meet__photo__animal active">
+    <p class="meet__photo__animal__name">
+      Liz
+    </p>
+    <img src="./img/coala.png" alt="panda" class="meet__photo__animal__photo">
+   <div class="meet__photo__animal__info">
+    <p class="meet__photo__animal__text1">
+      Australian Koala
+   </p>
+    <p class="meet__photo__animal__text2">
+      The elevated walkways bring you to eye level with the koalas as they perch in their forest. 
+   </p>
+    <button class="meet__photo__animal__button">
+      <p class="meet__photo__animal__button__text">VIEW LIVE CAM</p> 
+    </button>
+   </div>
+  </aside>
+
+  <aside class="meet__photo__animal">
+    <a href="./zoos_eagle.html" class="meet__photo__animal__link">
+    <p class="meet__photo__animal__name">
+      Sam & Lora
+    </p>
+    <img src="./img/bird.png" alt="panda" class="meet__photo__animal__photo">
+   <div class="meet__photo__animal__info">
+    <p class="meet__photo__animal__text1">
+      West End Bald Eagles
+   </p>
+    <p class="meet__photo__animal__text2">
+      Pair of eagle parents lay and protect eggs, feed their chicks and teach them to hunt and fly.
+    </p>
+    <button class="meet__photo__animal__button">
+     <p class="meet__photo__animal__button__text">VIEW LIVE CAM</p> 
+    </button>
+   </div>
+    </a>
+  </aside>
+
+  <aside class="meet__photo__animal">
+    <p class="meet__photo__animal__name">
+      Shake
+    </p>
+    <img src="./img/lien.png" alt="panda" class="meet__photo__animal__photo">
+   <div class="meet__photo__animal__info">
+    <p class="meet__photo__animal__text1">
+      African Lion
+   </p>
+    <p class="meet__photo__animal__text2">
+      Lions roam the savannas and grasslands of Africa, hunting and raising cubs in the pride.
+    </p>
+    <button class="meet__photo__animal__button">
+      <p class="meet__photo__animal__button__text">VIEW LIVE CAM</p> 
+    </button>
+   </div>
+  </aside>
+
+  <aside class="meet__photo__animal">
+    <p class="meet__photo__animal__name">
+      Liz
+    </p>
+    <img src="./img/coala.png" alt="panda" class="meet__photo__animal__photo">
+   <div class="meet__photo__animal__info">
+    <p class="meet__photo__animal__text1">
+      Australian Koala
+   </p>
+    <p class="meet__photo__animal__text2">
+      The elevated walkways bring you to eye level with the koalas as they perch in their forest. 
+   </p>
+    <button class="meet__photo__animal__button">
+      <p class="meet__photo__animal__button__text">VIEW LIVE CAM</p> 
+    </button>
+   </div>
+  </aside>
+
+</article>
+
+<script>
+let items = document.querySelectorAll(' .meet__photo__animal');
+let currentItem = 0;
+let isEnabled = true;
+
+function changeCurrentItem(n) {
+	currentItem = (n + items.length) % items.length;
+}
+
+function hideItem(direction) {
+	isEnabled = false;
+	items[currentItem].classList.add(direction);
+	items[currentItem].addEventListener('animationend', function() {
+		this.classList.remove('active', direction);
+	});
+}
+
+function showItem(direction) {
+	items[currentItem].classList.add('next', direction);
+	items[currentItem].addEventListener('animationend', function() {
+		this.classList.remove('next', direction);
+		this.classList.add('active');
+		isEnabled = true;
+	});
+}
+
+function nextItem(n) {
+	hideItem('to-left');
+	changeCurrentItem(n + 1);
+	showItem('from-right');
+}
+
+function previousItem(n) {
+	hideItem('to-right');
+	changeCurrentItem(n - 1);
+	showItem('from-left');
+}
+
+document.querySelector('.control.left').addEventListener('click', function() {
+	if (isEnabled) {
+		previousItem(currentItem);
+	}
+});
+
+document.querySelector('.control.right').addEventListener('click', function() {
+	if (isEnabled) {
+		nextItem(currentItem);
+	}
+});
+
+
+</script>
+
+
+
+  <button class="meet__photo__animal__choose">
+    <a href="./map.html" class="header__nav__link">
+    <p class="meet__photo__animal__choose__text">
+      choose your favourite
+    </p>
+  </a>
+  </button>
+</section>
+
+
+<section class="pay">
+  <div class="pay__wrapper">
+  <p class="pay__title">
+    PAY AND FEED
+  </p>
+
+  <article class="pay__1">
+    <p class="pay__number">
+      01
+    </p>
+    <img src="./img/Vector.png" alt="line" class="pay__line">
+  </article>
+
+  <article class="pay__inform1">
+    <img src="./img/pay1.png" alt="animal" class="pay__inform__img">
+    <aside class="pay__inform2">
+      <img src="./img/pay12.png" alt="icon" class="pay__inform2__img">
+      <p class="pay__inform2__text__main">
+        Your donation has an impact
+      </p>
+      <p class="pay__inform2__text__aside">
+         Providing our animals with high-quality nutritious diets is just one element of animal care at our Zoo. We do all the best so that our animals can eat food similar to what they might find in their natural habitats while making sure they get the right mix of nutrients, proteins, and vitamins to be happy and healthy. Please help us provide nutritious food for our animals by donating. The generosity of people like you can help us make sure that our animals enjoy good food that keeps them in great condition.
+      </p>
+   </aside>
+  </article>
+
+  <article class="pay__1">
+    <p class="pay__number">
+      02
+    </p>
+    <img src="./img/Vector.png" alt="line" class="pay__line">
+  </article>
+
+  <article class="pay__inform1">
+    <img src="./img/pay2.png" alt="animal" class="pay__inform__img">
+    <aside class="pay__inform2">
+      <img src="./img/pay22.png" alt="icon" class="pay__inform2__img">
+      <p class="pay__inform2__text__main">
+        Make a donation
+      </p>
+      <p class="pay__inform2__text__aside">
+        You can donate through your credit card without any fees. It is easy and safe. We do not keep donors' personal information on an online network. Choose an amount to give and the pet's name if needed. One of the most effective ways you can give is by making regular donations.
+      </p>
+    </aside>
+  </article>
+
+  <article class="pay__1">
+    <p class="pay__number">
+      03
+    </p>
+    <img src="./img/Vector.png" alt="line" class="pay__line">
+  </article>
+
+  <article class="pay__inform1">
+    <img src="./img/pay3.png" alt="animal" class="pay__inform__img">
+    <aside class="pay__inform2">
+      <img src="./img/pay32.png" alt="icon" class="pay__inform2__img">
+      <p class="pay__inform2__text__main">
+        Bring your food charity — straight to your favorites pets.
+      </p>
+      <p class="pay__inform2__text__aside">
+        After your donation, the animal receives its favorite foods. You can support your favorite animals or any animal you care about and make a real personal impact. Never doubt that your donation can make a difference even if it is small. 
+      </p> 
+      
+      <button class="pay__button">
+      <p class="pay__button__text">
+        donate now
+      </p>
+    </button>
+    </aside>
+  </article>
+</div>
+</section>
+
+<div class="think__wrapper">
+  <section class="think">
+    <article class="think__inform">
+      <p class="think__text__main">
+         what our users think
+      </p>
+      <p class="think__text__aside">
+        We are continuously striving to improve the experiences of our future guests. Below you can leave your own feedback, or simply view feedback from past clients. 
+      </p>
+    </article>
+<article>
+
+
+  <div class="think__blocks">
+    <aside class="think__block">
+      <img src="./img/coma.png" alt="coma" class="think__block__img">
+      <p class="think__block__date">
+        New Jersey, June 2020
+      </p>
+      <p class="think__block__info">
+        I am writing to thank you for your mission is to bring people closer to nature! Like myself, children were very impressed by the opportunity to explore the life of incredible animals in real-time. 
+      </p>
+      <p class="think__block__name">
+        Karen Maithlan
+      </p>
+    </aside>
+
+    <aside class="think__block">
+      <img src="./img/coma.png" alt="coma" class="think__block__img">
+      <p class="think__block__date">
+        Toronto, November 2020
+      </p>
+      <p class="think__block__info">
+        We so enjoy the ever-evolving selection of animals from around the globe. THANK YOU for sharing these fascinating animal friends with us so that we may learn and increase our understanding of the animal kingdom. 
+      </p>
+      <p class="think__block__name">
+        Carol Larsen
+      </p>
+    </aside>
+ </div>
+
+
+ <div class="think__blocks">
+  <aside class="think__block">
+    <img src="./img/coma.png" alt="coma" class="think__block__img">
+    <p class="think__block__date">
+      London, February 2020
+    </p>
+    <p class="think__block__info">
+      A fantastic experience for kids and adults alike! If anyone is looking for an attraction that educates people on wild animals – it's for you! I highly recommend seeing for yourself the variety of animals on your screen.  
+    </p>
+    <p class="think__block__name">
+      C. Stockman
+    </p>
+  </aside>
+
+  <aside class="think__block">
+    <img src="./img/coma.png" alt="coma" class="think__block__img">
+    <p class="think__block__date">
+      Amsterdam, June 2020
+    </p>
+    <p class="think__block__info">
+      I want to thank you for the amazing sites you find to put your cameras to let each of us see things that we would probably never see on our own. There are so many positives on Zoo Online and I'm grateful for it. Thank you so much!  
+    </p>
+    <p class="think__block__name">
+      Tomas Ray
+    </p>
+  </aside>
+</div>
+</article>
+</section>
+
+<div class="think__arrows">
+
+  <img src="./img/left.png" class="think__butons__left">
+    
+  </img>
+  <img src="./img/right.png" class="think__buttons__right">
+    
+  </img>
+</div>
+
+    <button class="think__feedback">
+      <p class="think__feedback__text">leave feedback</p>
+    </button>
+</div>
+
+
+  <section class="care">
+    <p class="care__main">
+      care for the animals you love 
+    </p>
+    <p class="care__aside">
+      You can help to look after the animals you love with your gift today
+    </p>
+    <article class="care__wrapper">
+      
+      <img src="./img/care_koala.png" alt="coala" class="care__wrapper__img1">
+      <aside class="care__wrapper__animal">
+        <a href="./zoos.html" class="care__wrapper__animal__link">
+        <img src="./img/care_panda2.png" alt="panda" class="care__wrapper__animal__img">
+        <p class="care__wrapper__animal__text">
+          Your $30 could give Lucas a slice of panda cake, made with our secret recipe.
+        </p>
+       <button class="care__wrapper__animal__button">
+         <p class="care__wrapper__animal__button__text">
+          feed
+        </p>  
+      </button>
+      </aside>
+    </a>
+    </article>
+
+  <article class="care__wrapper">
+
+    <aside class="care__wrapper__animal">
+      
+      <img src="./img/care_tiger.png" alt="panda" class="care__wrapper__animal__img">
+      <p class="care__wrapper__animal__text">
+        Your $150 will help to care for Senja, a Sumatran tiger, for three weeks.
+      </p>
+     <button class="care__wrapper__animal__button">
+       <p class="care__wrapper__animal__button__text">
+        feed
+      </p>  
+    </button>
+ 
+    </aside>
+    
+    
+    <aside class="care__wrapper__animal">
+      <a href="./zoos_lemuar.html" class="care__wrapper__animal__link">
+      <img src="./img/cere_lemoar.png" alt="panda" class="care__wrapper__animal__img">
+      <p class="care__wrapper__animal__text">
+        With your support, we can give Andy his favorite fruits. Especially when it's not fruit season in its natural habitat.
+      </p>
+     <button class="care__wrapper__animal__button">
+       <p class="care__wrapper__animal__button__text">
+        feed
+      </p>  
+    </button>
+</a>
+    </aside>
+
+
+    <aside class="care__wrapper__animal">
+      <a href="./zoos_eagle.html" class="care__wrapper__animal__link">
+      <img src="./img/care_eagle.png" alt="panda" class="care__wrapper__animal__img">
+      <p class="care__wrapper__animal__text">
+        Sam & Lora have hatched and raised numerous young and will be happy with your help. 
+      </p>
+     <button class="care__wrapper__animal__button">
+       <p class="care__wrapper__animal__button__text">
+        feed
+      </p>  
+    </button>
+    </aside>
+    </a>
+  </article>
+ 
+<div class="care__choose">
+    <a href="./map.html" class="care__choose__link">
+      <p class="care__choose__text">
+        choose your favourite
+      </p>
+      
+    </a>
+  </div>
+    <p class="center__img">
+
+      <img src="./img/last.png" alt="zoo" class="last">
+    </p>
+  </section>
+
+
+
+
+  <footer class="footer">
+    <nav class="footer__nav">
+  
+      <ul class="footer__nav__list">
+        <li class="footer__nav__list__point">
+
+        <p title="zoo">  <img src="./img/footer_logo1.png" alt="logo" class="footer__nav_list__point__img1"  ></p>
+        </li>
+
+
+        <li class="footer__nav__list__point">
+          <p title="Online-ZOO-Project-"><img src="./img/footer_logo2.png" alt="logo" class="footer__nav_list__point__img2"  ></p> 
+        </li>
+        <li class="footer__nav__list__point">
+          <p title="RSSchool"><img src="./img/footer_logo3.png" alt="logo" class="footer__nav_list__point__img3"  ></p>
+        </li>
+    </ul>
+    <ul class="footer__nav__list__links">
+       <li class="header__nav__point">
+        <a href="./index.html" class="header__nav__link">
+         <p class="footer__nav__list__links__point__text__active">
+          About
+         </p>
+       </a>
+       </li>
+       <li class="footer__nav__list__links__point">
+        <a href="./map.html" class="header__nav__link">
+        <p class="footer__nav__list__links__point__text">
+          map
+        </p>
+        </a>
+      </li>
+      <li class="footer__nav__list__links__point">
+        <a href="./zoos.html" class="header__nav__link">
+        <p class="footer__nav__list__links__point__text">
+          Zoos
+        </p>
+      </a>
+      </li>      
+      <li class="footer__nav__list__links__point">
+        <a href="./contact_us.html" class="header__nav__link">
+        <p class="footer__nav__list__links__point__text">
+          Contact us
+        </p>
+     </a>
+      </li>   
+    </ul>
+    <button class="footer__nav__button">
+      <p class="footer__nav__button__text">
+        donate for volunteers
+      </p>
+    </button>
+  
+  </nav>
+
+  
+    <img src="./img/Vector.png" alt="line" class="footer__line">
+ 
+
+  <nav class="footer__bottom">
+    <ul class="footer__bottom__list">
+      <li class="footer__bottom__list__point">
+        <p class="footer__bottom__list__point__text" >
+          © 2021 DinaK 
+        </p>
+      </li>
+      <li class="footer__bottom__list__point">
+        <p class="footer__bottom__list__point__text">
+          © Yem Digital 
+        </p>
+      </li>
+      <li class="footer__bottom__list__point">
+        <p class="footer__bottom__list__point__text">
+          © RSSchool
+        </p>
+      </li>
+    </ul>
+
+
+    <ul class="footer__icons__list">
+      <li class="footer__icons__list__point">
+       <a href="https://www.instagram.com/?hl=ru" class="footer__icons__list__point__link">
+        <img src="./img/YouTube.png" alt="icons" class="footer__icons__list__point__img">
+      </a>
+      </li>
+      <li class="footer__icons__list__point">
+        <a href="https://www.instagram.com/?hl=ru" class="footer__icons__list__point__link">
+          <img src="./img/Instagram.png" alt="icons" class="footer__icons__list__point__img">
+      </a>
+      </li>
+      <li class="footer__icons__list__point">
+        <a href="https://ru-ru.facebook.com/" class="footer__icons__list__point__link">
+          <img src="./img/Facebook.png" alt="icons" class="footer__icons__list__point__img">
+      </a>
+      </li>
+    </ul>
+  </nav>
+
+
+  </footer>
+
 </body>
 </html>
